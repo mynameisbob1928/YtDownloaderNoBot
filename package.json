@@ -1,0 +1,11 @@
+{
+  "name": "ezytvideodownloader",
+  "version": "1.0.0",
+  "description": "A program that will download many youtube videos one by one automatically",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo bruh use node . or node main.js && exit 1"
+  },
+  "author": "mynameisbob1928",
+  "license": "ISC"
+}
