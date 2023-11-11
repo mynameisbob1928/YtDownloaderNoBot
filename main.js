@@ -158,7 +158,7 @@ async function nextlink(){const e = fs.readFileSync('./links.txt', 'utf8').split
                     num++;
                     //see function earlier
                     await rep();
-                    console.log(`\n${amount} video/s left`)
+                    console.log(`\n${amount-1} video/s left`)
                     //random space
                     console.log('\n\n')
                     //a small timeout just so it doesn't go straight into the next one. Probably not needed but oh well
