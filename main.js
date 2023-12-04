@@ -109,6 +109,7 @@ async function nextlink(){const e = fs.readFileSync('./links.txt', 'utf8').split
 
 //the (async () thing is to allow javascript code to run asynchronously
 (async () => {
+    if(await links()===0) return console.log('\nYou have no videos to download :p')
     //checks for empty folders which will mess up the amount of videos downloaded count
     let no;
     if(num!=1) { no = 0; } else { no = 1; }
