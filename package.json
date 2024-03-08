@@ -7,5 +7,8 @@
     "test": "echo bruh use node . or node main.js && exit 1"
   },
   "author": "mynameisbob1928",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
 }
